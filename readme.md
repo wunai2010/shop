@@ -4,3 +4,4 @@ shop-eureka   注册中心<br/>
 shop-user     用户中心<br/>
 shop-portal   展示门户<br/>
 shop-manager  后台管理<br/>
+shop-web      前端展示<br/>
