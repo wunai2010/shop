@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    config:
+      name: user
+      uri: http://localhost:3600
