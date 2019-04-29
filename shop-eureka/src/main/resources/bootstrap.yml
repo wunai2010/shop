@@ -1,8 +1,5 @@
-server: 
-  port: 8761
-eureka:
-  client:
-    registerWithEureka: false   
-    fetchRegistry: false
-  server:
-    waitTimeInMsWhenSyncEmpty: 0
+spring:
+  cloud:
+    config:
+      name: eureka
+      uri: http://localhost:3600
