@@ -4,9 +4,15 @@
 <mapper namespace="com.wunai.shop.mybatis.UserServiceMapper">
 	<resultMap type="com.wunai.shop.user.business.UserBO" id="userMap">
 		<result property="id" column="id" />
-		<result property="userName" column="user_name" />
+		<result property="userName" column="username" />
 		<result property="password" column="password" />
 		<result property="phone" column="phone" />
 		<result property="email" column="email" />
 	</resultMap>
+	<select id="query" resultMap="userMap">
+	   select id,username,password,phone, email from  tb_user
+	</select>
+	<select id="findByUserName" resultType="com.wunai.shop.user.business.UserBO">
+	   select id,username,password,phone, email from  tb_user where username=#{value}
+	</select>
 </mapper>

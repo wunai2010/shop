@@ -9,4 +9,6 @@ import com.wunai.shop.user.business.UserBO;
 @Mapper
 public interface UserServiceMapper {
 	List<UserBO> query(UserBO user);
+
+	UserBO findByUserName(String userName);
 }
