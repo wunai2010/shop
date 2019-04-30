@@ -1,8 +1,5 @@
 server:
   port: 8886
-mybatis:  
- mapper-locations: classpath*:/mybatis/mapper/**Mapper.xml
- config: classpath:mybatis-config.xml
 spring:
   application:
     name: shop-user
@@ -12,3 +9,6 @@ spring:
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
+mybatis: 
+ mapper-locations: classpath*:/mybatis/mapper/**Mapper.xml
+ config: classpath:mybatis-config.xml
