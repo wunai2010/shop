@@ -1,4 +1,4 @@
-package com.wunai.shop.user.mybatis;
+package com.wunai.shop.user.mybatis.mapper;
 
 import java.util.List;
 

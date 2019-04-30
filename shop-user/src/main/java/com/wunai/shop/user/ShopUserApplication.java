@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-@MapperScan("com.wunai.shop.mybatis")
+@MapperScan("com.wunai.shop.mybatis.mapper")
 public class ShopUserApplication {
 
 	public static void main(String[] args) {
