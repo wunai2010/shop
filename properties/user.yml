@@ -12,3 +12,8 @@ server:
 mybatis:  
  mapper-locations: classpath*:/mybatis/mapper/**Mapper.xml
  config: classpath:mybatis-config.xml
+eureka: 
+ client: 
+  service-url: 
+   defaultZone: http://127.0.0.1:8761/eureka/
+
