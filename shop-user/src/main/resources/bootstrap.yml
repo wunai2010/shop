@@ -3,6 +3,3 @@ spring:
     config:
       name: user
       uri: http://localhost:3600
-      discovery:
-        enabled: true
-        serviceId: shop-user
