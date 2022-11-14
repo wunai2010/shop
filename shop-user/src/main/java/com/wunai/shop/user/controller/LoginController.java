@@ -17,4 +17,8 @@ public class LoginController {
 		return userService.login(userName, password);
 	}
 
+	public void ok(){
+
+	}
+
 }
